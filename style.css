@@ -223,7 +223,7 @@ nav li a{
         margin-top: 8px;
     }
     .main-2{
-       height: 120vh;
+       height: 1000px;
      
     }
     .recent-posts{
@@ -244,7 +244,7 @@ nav li a{
     .r-content{
         width: 95%;
        margin-bottom: 20px;
-       height: 50vh ;
+       height: 400px;
      
     }
     .post-header{
@@ -270,5 +270,22 @@ nav li a{
         margin-bottom: 10px;
 
         /* background-color: red; */
+    }
+  }
+  @media only screen and (max-height: 600px){
+    .main-content{
+        height:600px;
+  
+      
+    }
+    .main-2{
+        height: 1000px;
+    }
+    .r-content{
+        width: 95%;
+       margin-bottom: 20px;
+       height: 400px;
+       /* background-color: #eb5550; */
+     
     }
   }
